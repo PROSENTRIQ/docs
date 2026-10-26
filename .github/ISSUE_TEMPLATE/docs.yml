@@ -1,0 +1,19 @@
+name: Documentation problem
+description: Something in these docs is wrong, unclear or missing.
+labels: [documentation]
+body:
+  - type: markdown
+    attributes:
+      value: Security problems go to security@prosentriq.com, not here. Account questions go to support@prosentriq.com.
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The page's path or link, for example install/linux.md.
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong or missing?
+      description: Quote the text if you can, and say what you expected.
+    validations: { required: true }
