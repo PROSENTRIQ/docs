@@ -19,6 +19,11 @@ Owners and admins of the MSP can do it, from the console or with an API key.
 - Each customer's data is isolated from every other customer's by the
   database itself (row-level security), as for any organization.
 - Customers inherit your branding (product name, logo, colours, support email).
+- You answer your customers' support cases first: they appear in **Support →
+  Customers' cases**, and your support email (or your owners and admins) gets
+  an email for each. Escalate one to Prosentriq when you need us; we then see
+  that conversation and answer it on the customer's plan. See
+  [Getting help](support.md#if-you-are-an-msp).
 
 ## Working in a customer organization
 
