@@ -252,6 +252,10 @@ Each route lists the permission it needs. "Sensor" means a sensor credential.
 | `POST /v2/support/cases`, `POST …/{number}/messages`, `…/resolve`, `…/reopen` | `triage` | Open a case, reply, resolve, reopen |
 | `POST /v2/support/cases/{number}/escalate` | `triage` (the MSP) | Ask Prosentriq to help with a customer's case |
 | `POST /v2/support/access-requests/{id}/grant`, `…/decline` | the organization's owner | Answer Prosentriq's request to see data |
+| `POST /v2/support/cases/{number}/attachments?filename=&note=` | `triage` | Attach a file (the request body, up to 4 MB) |
+| `GET /v2/support/attachments/{id}` | `read` | Download a file, once its malware scan has cleared it |
+| `POST /v2/support/cases/{number}/rating` | `triage` | Rate a resolved case Prosentriq answered (`score` 1–5, `comment`) |
+| `GET /v2/notices` | `read` | What Prosentriq says is wrong right now |
 | `POST /v2/tenant/delete` | `manage_tenant` + re-authentication | Delete the organization (restorable for 30 days) |
 | `GET /v2/billing`, `POST /v2/billing/checkout`, `/subscription`, `/portal` | `read` / signed-in user | Subscription, checkout, plan change and the billing portal |
 

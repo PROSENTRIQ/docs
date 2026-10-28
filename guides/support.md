@@ -20,6 +20,11 @@ addresses or security events.
   hold the engine's state, never the host's name, addresses or traffic.
 - **A detection looks wrong**: use **Ask support** on the incident.
 
+Under the category you pick, the form lists the pages of these docs that
+answer most such cases; if one does, you're done. If Prosentriq already knows
+about a problem (an outage, delayed detection, maintenance), it says so at the
+top of every console page and on the form: you don't need a case for it.
+
 Never put passwords, API keys or codes in a case. Prosentriq never asks for
 them; the console asks you to check if something looks like one.
 
@@ -46,10 +51,19 @@ except Kenyan public holidays. The case shows when to expect the first reply.
 ## Following a case
 
 The case page updates by itself: new replies appear within seconds, and you
-see when support has it open. Reply from the page (Ctrl or ⌘ + Enter sends).
-Replies to our emails aren't read, so the conversation stays in one place.
+see when support has it open or is typing. Reply from the page (Ctrl or ⌘ +
+Enter sends), or reply to our email about the case: your answer lands in the
+same thread. Replies by email are accepted only from your own address on the
+case, and must pass your mail provider's sender checks (SPF, DKIM, DMARC); if
+one can't be added, we email you why.
 
-**Mark resolved** when you're done. You can reopen a resolved case, or just
+**Files**: attach screenshots (PNG, JPEG, GIF, WebP), PDFs or text files
+(logs, CSV, JSON, YAML) up to 4 MB, 20 per case, with **Attach file** under the
+reply box. Every file is scanned for malware before anyone, you or us, can
+download it. Files in email replies aren't taken: attach them in the console.
+
+**Mark resolved** when you're done. When Prosentriq answered the case, you can
+rate the answer (1 to 5, with a comment if you like) for 30 days. You can reopen a resolved case, or just
 reply to it, for 14 days; after that it closes and you open a new one. A case
 waiting on you for 10 days resolves by itself.
 
@@ -60,6 +74,16 @@ owner allows it. When it would help, support asks on the case: what, for how
 long and why. An owner allows or declines it there; owners also get an email.
 Access ends when it expires or when you revoke it in **Support → Data access**,
 and every look is in your audit log. See [Support access](access.md#support-access).
+
+## Lost your authenticator and your recovery codes?
+
+Open a case (Signing in, members or single sign-on), or write to
+support@prosentriq.com from your account's address if you can't sign in.
+After checking it's really you, two Prosentriq staff turn off two-factor
+authentication on your account and sign you out everywhere; you sign in with
+your password and set it up again. You and your organization's owners get an
+email. The same applies when an organization's only owner has left: staff can
+make an existing member an owner, never someone from outside.
 
 ## If you buy through an MSP
 
