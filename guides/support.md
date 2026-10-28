@@ -54,8 +54,10 @@ The case page updates by itself: new replies appear within seconds, and you
 see when support has it open or is typing. Reply from the page (Ctrl or ⌘ +
 Enter sends), or reply to our email about the case: your answer lands in the
 same thread. Replies by email are accepted only from your own address on the
-case, and must pass your mail provider's sender checks (SPF, DKIM, DMARC); if
-one can't be added, we email you why.
+case, from a role that can answer cases (not auditors), and only when your
+domain's DMARC check passes, which proves the email really came from your
+address. If your domain publishes no DMARC record, reply in the console. If a
+reply can't be added, we email you why.
 
 **Files**: attach screenshots (PNG, JPEG, GIF, WebP), PDFs or text files
 (logs, CSV, JSON, YAML) up to 4 MB, 20 per case, with **Attach file** under the
@@ -83,7 +85,9 @@ After checking it's really you, two Prosentriq staff turn off two-factor
 authentication on your account and sign you out everywhere; you sign in with
 your password and set it up again. You and your organization's owners get an
 email. The same applies when an organization's only owner has left: staff can
-make an existing member an owner, never someone from outside.
+make an existing member an owner, never someone from outside, and only when
+no owner has signed in for 30 days. An owner who still signs in adds owners
+themselves (Settings → Members).
 
 ## If you buy through an MSP
 
