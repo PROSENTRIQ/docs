@@ -115,4 +115,6 @@ default and receives only a redacted summary of one incident when you ask.
 (Apache-2.0), and the Helm chart's source is public. The control plane and
 engine are commercial; Enterprise customers can self-host them.
 
-Still stuck? support@prosentriq.com, with the `request_id` from any API error.
+Still stuck? Open a case in the console (Help → Contact support), with the
+`request_id` from any API error, or write to support@prosentriq.com if you
+can't sign in. See [Getting help](guides/support.md).

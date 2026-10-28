@@ -19,7 +19,10 @@ pricing version **2026-11**.
 | Highest autonomy level | 1 (Observe) | 3 (Enforce low-risk) | 5 (Full autonomy) | 5 (Full autonomy) |
 | Data retention | 14 days | 30 days | 90 days | 400 days |
 | Free trial | Free forever, no card | None | 7 days, once | By arrangement |
-| Support | Documentation and community | Email, next business day | Email and chat, 4-hour first response on business days | 24/7 support SLA, named contact |
+| Support | In-console cases, answered on business days as soon as we can | In-console cases and email, first response by the next business day | In-console chat and email, first response within 4 business hours | 24/7 for urgent cases with a 1-hour first response, 4 business hours for the rest, and a named contact |
+
+Business hours are Monday to Friday, 09:00 to 18:00 East Africa Time (UTC+3),
+except Kenyan public holidays. See [Getting help](guides/support.md).
 
 Who each plan is for:
 

@@ -51,6 +51,7 @@ This is the full public reference. A shorter overview is at
 - [Side-by-side evaluation and migration](guides/evaluation.md)
 - [On the host: `prosentriq-ctl`, kill-switch, isolation, upgrades](guides/host.md)
 - [Your data: retention, export and deletion](guides/data.md)
+- [Getting help: support cases, response times and data access](guides/support.md)
 
 ## API
 
@@ -84,7 +85,7 @@ This is the full public reference. A shorter overview is at
 
 ## Help and contact
 
-- Support: support@prosentriq.com (email on Starter, email and chat on Pro, 24/7 on Enterprise)
+- Support: open a case in the console (Help → Contact support), or write to support@prosentriq.com. See [Getting help](guides/support.md).
 - Sales and Enterprise: sales@prosentriq.com
 - Security reports: security@prosentriq.com; see the [security policy](https://github.com/PROSENTRIQ/.github/blob/main/SECURITY.md). Please don't report vulnerabilities in public issues.
 

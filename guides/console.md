@@ -44,8 +44,11 @@ Press `Ctrl K` (`⌘ K` on a Mac) anywhere to search pages and actions.
 | **My security** | Your two-factor authentication, recovery codes, and deleting your account |
 | **Single sign-on** | Your identity provider and verified domains |
 | **Organization** | Name, data sharing (Immunity Network), the AI assistant, branding, and deleting the organization |
-| **Support access** | Let Prosentriq support see your data for a limited time |
 | **Usage & migration** | Enforcing nodes and cost, the subscription and billing portal, and the migration kit |
+
+**Support** (bottom of the sidebar) holds your support cases and **Data
+access**, where an owner lets Prosentriq support see data for a limited time.
+See [Getting help](support.md).
 
 **Plans** shows the plans and lets an owner change them. MSPs also have
 **Customer fleet**. See [Managed service providers](msp.md).

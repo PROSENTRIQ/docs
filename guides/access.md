@@ -94,11 +94,13 @@ Google or Microsoft.
 ## Support access
 
 Prosentriq staff can't see your incidents, hosts or integrations. They see only
-how the service runs for you (plan, sensor health, usage). To let support look
-at your data while helping you, an owner grants time-limited access in
-**Settings → Support access**: 1 hour, 24 hours, 3 days or 7 days, with a
-reason. Every look at your data is recorded in your audit log as a Prosentriq
-staff action. Revoke a grant at any time.
+how the service runs for you (plan, sensor health, usage). When support needs
+to look at your data to help with a case, they ask on the case, naming what
+(incidents, hosts, integrations), for how long and why; an owner allows or
+declines it there. An owner can also grant access in **Support → Data access**:
+1 hour, 24 hours, 3 days or 7 days, for the data they choose. Every look is
+recorded in your audit log as a Prosentriq staff action. Revoke a grant at any
+time. See [Getting help](support.md).
 
 ## Branding
 
